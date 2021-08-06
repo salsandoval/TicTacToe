@@ -156,7 +156,7 @@ function drawWinLine(coordXl, coordY1, coordX2, coordY2) {
     //this variable stores temporary x axis data we update in our animation loop.
     x = xl,
     //this variable stores temporary y axis data we update in our animation loop
-    y = yl,
+    y = yl;
 
     //this function interacts with the canvas
     function animateLineDrawing() {
